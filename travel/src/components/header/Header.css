@@ -1,0 +1,11 @@
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(121, 186, 164);
+ color: rgb(255, 255, 255);
+
+}
+

@@ -1,12 +1,20 @@
-function Tours(props){
-    return(<>
-    <div>
-   <h2>{props.name}</h2>
-   <img src={props.image} alt={props.name}></img>
+import Tour from "./tour/Tour";
 
-    </div>
-    
-    
-    </>)
+function Tours(props) {
+  const tour = props.data;
+  return (
+    <>
+      {tour.map((element) => {
+        return (
+          <Tour
+            key={element.id}
+            id={element.id}
+            name={element.name}
+            image={element.image}
+          />
+        );
+      })}
+    </>
+  );
 }
 export default Tours;

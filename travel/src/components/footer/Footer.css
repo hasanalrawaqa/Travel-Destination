@@ -1,0 +1,8 @@
+.footer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    color: aliceblue;
+    background-color: black;
+}
