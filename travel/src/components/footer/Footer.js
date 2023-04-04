@@ -1,9 +1,11 @@
+import './Footer.css'
+
 function Footer(){
  return(
     <>
-    <div>
+    <div class="footer">
     <p><a href="https://jo.linkedin.com/in/hasan-alrawaqa-504117172"> linkedin </a> </p>
-    <a href="https://www.facebook.com/hassan.alrawwaqah/"> facebook </a>
+   <p> <a href="https://www.facebook.com/hassan.alrawwaqah/"> facebook </a></p>
     <p>Author: Hasan Alrawaqa</p>
     </div>
     </>

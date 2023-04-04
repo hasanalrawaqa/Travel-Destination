@@ -7,17 +7,7 @@ function Home(props){
     return(
 <>
 <Header />
-{
-      props.data.map(element=>{
-return(
-< Tours name  = {element.name}
-       image={element.image} />
-
-)
-
-      } 
-        )
-      }
+<Tours data={props.data} />
 <Footer/>
 
 </>
